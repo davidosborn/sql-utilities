@@ -1,0 +1,22 @@
+{
+	"name": "sql-utilities",
+	"version": "0.0.0",
+	"description": "A collection of SQL utilities",
+	"keywords": [
+		"sql",
+		"SQL",
+		"tools",
+		"utilities"
+	],
+	"homepage": "https://github.com/davidosborn/sql-utilities",
+	"bugs": {
+		"url": "https://github.com/davidosborn/sql-utilities",
+		"email": "david@davidosborn.io"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "David Osborn",
+		"email": "david@davidosborn.io",
+		"url": "http://davidosborn.io/"
+	}
+}
