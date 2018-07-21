@@ -18,5 +18,34 @@
 		"name": "David Osborn",
 		"email": "david@davidosborn.io",
 		"url": "http://davidosborn.io/"
+	},
+	"main": "lib/index.js",
+	"devDependencies": {
+		"@babel/cli": "^7.0.0-beta",
+		"@babel/core": "^7.0.0-beta",
+		"@babel/plugin-proposal-optional-chaining": "^7.0.0-beta",
+		"@babel/preset-env": "^7.0.0-beta",
+		"@babel/preset-stage-0": "^7.0.0-beta",
+		"babel-preset-minify": "*"
+	},
+	"scripts": {
+		"build": "npx babel -d lib src",
+		"prepublish": "npm run build"
+	},
+	"babel": {
+		"presets": [
+			[
+				"@babel/env", {
+					"targets": {
+						"node": "current"
+					}
+				}
+			],
+			"@babel/stage-0",
+			"minify"
+		],
+		"plugins": [
+			"@babel/proposal-optional-chaining"
+		]
 	}
 }

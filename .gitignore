@@ -1,5 +1,5 @@
-.timestamp
-backup
-node_modules
-npm-debug.log
-yarn-error.log
+/backup
+/lib/
+/node_modules
+/npm-debug.log
+/yarn-error.log
