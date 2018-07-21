@@ -1,6 +1,6 @@
 {
 	"name": "@davidosborn/sql-utilities",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "A collection of SQL utilities",
 	"keywords": [
 		"sql",
@@ -35,7 +35,8 @@
 	"babel": {
 		"presets": [
 			[
-				"@babel/env", {
+				"@babel/env",
+				{
 					"targets": {
 						"node": "current"
 					}
