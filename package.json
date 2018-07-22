@@ -26,7 +26,7 @@
 		"@babel/plugin-proposal-optional-chaining": "^7.0.0-beta",
 		"@babel/preset-env": "^7.0.0-beta",
 		"@babel/preset-stage-0": "^7.0.0-beta",
-		"babel-preset-minify": "*"
+		"babel-preset-minify": "canary"
 	},
 	"scripts": {
 		"build": "npx babel -d lib src",
