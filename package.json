@@ -40,7 +40,6 @@
 		"@babel/preset-stage-0": "^7.0.0-beta",
 		"babel-preset-minify": "canary"
 	},
-	"private": true,
 	"publishConfig": {
 		"access": "public"
 	},
