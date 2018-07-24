@@ -1,7 +1,4 @@
-import buildSqlInsertQuery from './build-sql-insert-query'
-import toSqlString from './to-sql-string'
+'use strict'
 
-export default {
-	buildSqlInsertQuery,
-	toSqlString
-}
+export { default as buildSqlInsertQuery } from './build-sql-insert-query'
+export { default as toSqlString } from './to-sql-string'

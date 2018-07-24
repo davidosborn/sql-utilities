@@ -8,9 +8,9 @@
 		"tools",
 		"utilities"
 	],
-	"homepage": "https://github.com/davidosborn/sql-utilities",
+	"homepage": "https://github.com/davidosborn/sql-utilities#readme",
 	"bugs": {
-		"url": "https://github.com/davidosborn/sql-utilities",
+		"url": "https://github.com/davidosborn/sql-utilities/issues",
 		"email": "david@davidosborn.io"
 	},
 	"license": "MIT",
@@ -19,7 +19,18 @@
 		"email": "david@davidosborn.io",
 		"url": "http://davidosborn.io/"
 	},
+	"files": [
+		"lib"
+	],
 	"main": "lib/index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/davidosborn/sql-utilities"
+	},
+	"scripts": {
+		"build": "npx babel -d lib src",
+		"prepublishOnly": "npm run build"
+	},
 	"devDependencies": {
 		"@babel/cli": "^7.0.0-beta",
 		"@babel/core": "^7.0.0-beta",
@@ -27,12 +38,11 @@
 		"@babel/plugin-proposal-optional-chaining": "^7.0.0-beta",
 		"@babel/preset-env": "^7.0.0-beta",
 		"@babel/preset-stage-0": "^7.0.0-beta",
-		"babel-preset-minify": "canary",
-		"yarpm": "*"
+		"babel-preset-minify": "canary"
 	},
-	"scripts": {
-		"build": "npx babel -d lib src",
-		"prepublishOnly": "yarpm run build"
+	"private": true,
+	"publishConfig": {
+		"access": "public"
 	},
 	"babel": {
 		"presets": [
