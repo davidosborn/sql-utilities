@@ -34,30 +34,14 @@
 	"devDependencies": {
 		"@babel/cli": "^7.0.0-beta",
 		"@babel/core": "^7.0.0-beta",
-		"@babel/node": "^7.0.0-beta",
-		"@babel/plugin-proposal-optional-chaining": "^7.0.0-beta",
-		"@babel/preset-env": "^7.0.0-beta",
-		"@babel/preset-stage-0": "^7.0.0-beta",
-		"babel-preset-minify": "canary"
+		"@davidosborn/babel-preset": "*"
 	},
 	"publishConfig": {
 		"access": "public"
 	},
 	"babel": {
 		"presets": [
-			[
-				"@babel/env",
-				{
-					"targets": {
-						"node": "current"
-					}
-				}
-			],
-			"@babel/stage-0",
-			"minify"
-		],
-		"plugins": [
-			"@babel/proposal-optional-chaining"
+			"@davidosborn/babel-preset"
 		]
 	}
 }
