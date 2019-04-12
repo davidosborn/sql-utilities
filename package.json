@@ -32,8 +32,8 @@
 		"prepublishOnly": "npm run build"
 	},
 	"devDependencies": {
-		"@babel/cli": "^7.0.0-beta",
-		"@babel/core": "^7.0.0-beta",
+		"@babel/cli": "*",
+		"@babel/core": "*",
 		"@davidosborn/babel-preset": "*"
 	},
 	"publishConfig": {
