@@ -1,6 +1,6 @@
 {
 	"name": "@davidosborn/sql-utilities",
-	"version": "0.0.12",
+	"version": "0.0.13",
 	"description": "A collection of SQL utilities",
 	"keywords": [
 		"sql",
