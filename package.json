@@ -11,12 +11,12 @@
 	"homepage": "https://github.com/davidosborn/sql-utilities#readme",
 	"bugs": {
 		"url": "https://github.com/davidosborn/sql-utilities/issues",
-		"email": "david@davidosborn.io"
+		"email": "davidcosborn@gmail.com"
 	},
 	"license": "MIT",
 	"author": {
 		"name": "David Osborn",
-		"email": "david@davidosborn.io",
+		"email": "davidcosborn@gmail.com",
 		"url": "http://davidosborn.io/"
 	},
 	"files": [
